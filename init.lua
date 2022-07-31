@@ -19,4 +19,7 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
-vim.cmd "colorscheme tokyonight"
+vim.cmd "let g:gh_color = 'hard'"
+vim.cmd "colorscheme ghdark"
+vim.cmd "set number relativenumber"
+
